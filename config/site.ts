@@ -1,69 +1,40 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Webba Technology - Control",
+  description: "Facilitando o seu dia cada vez mais.",
   navItems: [
     {
-      label: "Home",
+      label: "Login",
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Main",
+      href: "/main",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Cadastrar",
+      href: "/caadastrr",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Veículos",
+      href: "/veiculos",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Motoristas",
+      href: "/motoristas",
+    },
+    {
+      label: "Parceiros",
+      href: "/parceiros",
+    },
+    {
+      label: "Notas",
+      href: "/notas",
+    },
+    {
+      label: "Relatórios",
+      href: "/relatorios",
     },
   ],
-  navMenuItems: [
-    {
-      label: "Profile",
-      href: "/profile",
-    },
-    {
-      label: "Dashboard",
-      href: "/dashboard",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
-  ],
-  links: {
-    github: "https://github.com/nextui-org/nextui",
-    twitter: "https://twitter.com/getnextui",
-    docs: "https://nextui.org",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
-  },
 };
